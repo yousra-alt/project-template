@@ -1,16 +1,23 @@
 "use strict"
 
-// 5 > 4; TRUE
-// "apple" > "pineapple"; FALSE
-// "2" > "12"; TRUE
-// undefined == null; TRUE
-// undefined === null; FALSE
-// null == "\n0\n"; FALSE
-// null === +"\n0\n"; FALSE
-// "race" === "petl"; FALSE
-// "race" !== "petl"; TRUE
+console.log("running");
 
-const result = "race" !== "petl";
-console.log (result)
+const title = document.createElement("h1");
+title.textContent="DOM FUN Project";
+document.querySelector("header").appendChild(title);
+console.log(title);
+
+
+const paragraph = document.createElement("p");
+paragraph.textContent = "DOM øvelse";
+document.querySelector("body").appendChild(paragraph);
+// vælge hvilket HTML element det skal indsættes i. 
+
+
+
+
+
+
+
 
 
